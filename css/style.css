@@ -1,0 +1,148 @@
+body {
+   font-family: 'MoshyScript', decorative;
+   font-style: normal;
+   letter-spacing: 2px;
+}
+
+[class*="__box"] {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.color__bg {
+   background: url('../img/disign/shapes.svg') right 15% / 5% no-repeat, url('../img/disign/circles.svg') 0px bottom / 5% no-repeat, linear-gradient(45deg, rgba(202, 93, 25, 0.4), rgb(177, 208, 21, 0.5));
+   padding: 5px 0px;
+   margin-bottom: 50px;
+}
+
+header.bg {
+   background: linear-gradient(45deg, rgba(202, 93, 25, 0.4), rgb(177, 208, 21, 0.5));
+
+
+}
+
+.header__content.bg {
+   background: linear-gradient(45deg, rgba(202, 93, 25, 0.6), rgb(177, 208, 21, 0.7));
+}
+
+.header__content {
+   padding: 10px;
+   text-align: center;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 40px;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 30px;
+}
+
+li {
+   font-weight: 700;
+   font-size: 25px;
+}
+
+
+/* первый бокс*/
+.color__box {
+   padding: 50px;
+   min-height: 132px;
+}
+
+.color>li:first-child::before {
+   content: '';
+   width: 20px;
+   height: 20px;
+   background: red;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.color>li:nth-child(2)::before {
+   content: '';
+   width: 20px;
+   height: 20px;
+   background: green;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.color>li:last-child::before {
+   content: '';
+   width: 20px;
+   height: 20px;
+   background: blue;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+/*картинки*/
+
+.image__content {
+   box-shadow: 10px 10px 15px 0px rgba(213, 187, 15, 0.448), -10px 10px 15px 0px rgba(213, 187, 15, 0.448);
+   font-size: 0px;
+   background-color: rgba(175, 182, 79, 0.15);
+   margin-bottom: 30px;
+   border-radius: 20px;
+   border: 5px solid rgba(175, 182, 79, 1);
+   min-width: 580px;
+   padding: 20px;
+
+}
+
+
+.left>picture {
+   display: block;
+   max-width: 550px;
+
+}
+
+.image__content picture>* {
+   max-width: 550px;
+   border-radius: 20px;
+   border: 5px solid rgba(175, 182, 79, 1);
+
+}
+
+.image__content p {
+   font-size: 20px;
+   font-weight: 400;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   line-height: 2;
+
+}
+
+.right {
+   vertical-align: top;
+   background: url('../img/disign/shapes.svg') 90% 80% no-repeat, rgba(175, 182, 79, 0.5);
+   border-radius: 20px;
+   padding: 20px;
+   min-height: 1160px;
+   color: rgb(240, 127, 14);
+   text-shadow: 2px 0px 3px #fa0c0c;
+}
+
+.image__content>div {
+   display: inline-block;
+   max-width: 580px;
+   min-width: 300px;
+
+}
+
+picture>*:hover {
+   max-width: 150%;
+   transition-duration: 2s;
+}
+
+.left:hover+.right {
+   display: none;
+}
+
+.left:hover {
+   max-width: 1200px;
+   padding-right: 50px;
+}

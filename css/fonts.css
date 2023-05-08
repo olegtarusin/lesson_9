@@ -1,0 +1,20 @@
+@font-face {
+   font-family: 'MoshyScript';
+   src: url('../fonts/MushyScript-Regular.woff2') format('woff2'), url('../fonts/MushyScript-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'MoshyScript';
+   src: url('../fonts/MushyScript-Butter.woff2') format('woff2'), url('../fonts/MushyScript-Butter.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'MoshyScript';
+   src: url('../fonts/MushyScript-Cheese.woff2') format('woff2'), url('../fonts/MushyScript-Cheese.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+}
